@@ -1,0 +1,162 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* navbar */
+
+nav {
+  background: #F4F4F4;
+}
+
+.logo img {
+  float: left;
+  width: 200px;
+  height: 68px;
+  margin-left: 85px;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar ul li {
+  display: inline-block;
+  list-style: none;
+  margin-right: 100px;
+}
+
+.navbar ul li a {
+  color: black;
+  display: block;
+  text-decoration: none;
+  padding: 25px 10px 25px 10px;
+  font-family: 'Fredoka', sans-serif;
+}
+
+.navbar ul li a:hover {
+  transition: .3s;
+  color: #5D1FF2;
+}
+
+/* navbar */
+
+/* section */
+
+.container-presentacion {
+  display: flex;
+  justify-content: space-between;
+  margin: 35px 35px 25px 35px;
+}
+
+.container-presentacion .texto-presentacion {
+  width: 50%;
+  height: 700px;
+  order: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 75px;
+}
+
+.container-presentacion .texto-presentacion h2 {
+  font-size: 70px;
+  margin-bottom: 35px;
+  color: #5D1FF2;
+  font-family: 'Merriweather', serif;
+}
+
+.container-presentacion .texto-presentacion p {
+  font-size: 55px;
+  font-family: 'Fredoka', sans-serif;
+}
+
+.container-presentacion .foto-presentacion {
+  background-image: url(img/foto-presentacion.jpeg);
+  background-repeat: no-repeat;
+  background-size: 450px 700px;
+  background-attachment: fixed;
+  height: 700px;
+  width: 400px;
+  border-radius: 15px;
+  box-shadow: 0 0.2rem 0.6rem rgb(0, 0, 0, 3);
+}
+
+
+.container-article-2 {
+  margin-top: 50px;
+}
+
+.container-titulo {
+  margin-left: 170px;
+  font-family: 'Merriweather', serif;
+  color: #5D1FF2;
+}
+
+.persona-pensando {
+  width: 400px;
+  float: left;
+}
+
+.parrafo {
+  font-size: 20px;
+  margin-top: 30px;
+  font-family: 'Fredoka', sans-serif;
+}
+
+
+.container-random {
+  margin-top: 50px;
+}
+
+.titulo-random {
+  display: flex;
+  justify-content: center;
+  font-family: 'Merriweather', serif;
+  color: #5D1FF2;
+}
+
+.div-random {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.img-random {
+  margin: 20px 20px 20px 20px;
+}
+
+.img {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  box-shadow: 0 0.2rem 0.6rem rgb(0, 0, 0, 3);
+}
+
+
+.div-gracias {
+  display: flex;
+  justify-content: center;
+}
+
+.div-gracias .img-gracias {
+  width: 640px;
+  height: 500px;
+}
+
+/* section */
+
+/* footer */
+
+.container-footer {
+  background: #5D1FF2;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto Slab', serif;
+}
+
+/* footer */

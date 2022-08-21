@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>MI PROYECTO</title>
+    ><style media="screen">
+      strong
+      {
+        color: brown;
+      }
+    </style>
+  </head>
+  <body>
+   <h1>ESTE ES MI PROYECTO</h1>
+   <p>Un Pequeño dibujo</p>
+   <p><strong>Cuantas lineas quieres</strong><br />
+     <input type="text" id="cajita_lineas" />
+     <input type="button" value="Presiona" id="boton_lineas" />
+   <p><strong>Lo quieres "Normal" o "Hacia abajo"</strong><br />
+    <input type="text" id="cajita_dibujo" />
+    <input type="button" value="Presiona" id="boton_dibujo" />
+  </p>
+   <canvas width="300" height="300" id="caja_dibujo"></canvas>
+  <p><strong>¿Te digo algo?</strong></p>
+   <p><strong>"Si cuentame" o "No gracias"</strong><br />
+     <input type="text" id="cajita_texto" />
+     <input type="button" value="Presiona" id="boton_texto" />
+   </p>
+   <p id="resultado"></p>
+   <script src="dibujando.js"></script>
+  </body>
+</html>

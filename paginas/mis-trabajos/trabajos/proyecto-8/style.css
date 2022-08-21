@@ -1,0 +1,114 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #efefef;
+}
+
+/* navbar */
+
+nav {
+  background: #383838;
+}
+
+.logo {
+  float: left;
+  width: 50px;
+  padding: 10px 0 0 80px;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: flex-end
+}
+
+ul li {
+  list-style: none;
+  margin-right: 100px;
+  display: inline-block;
+}
+
+ul li a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 25px 10px 25px 10px;;
+}
+
+ul li a:hover {
+  background: black;
+}
+
+/* navbar */
+
+/* article */
+
+.container-h2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.container-h2 h2:hover {
+  color: red;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.container-article {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  background: white;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px 20px 20px 20px;
+  border-radius: .8rem;
+}
+
+.container:hover {
+  transition: box-shadow 0.3s ease;
+  box-shadow: 0 0.1rem 0.4rem rgb(0, 0, 0, 3);
+  cursor: pointer;
+}
+
+.container p {
+  padding: 10px 10px 10px 10px;
+}
+
+.container p:hover {
+  cursor: text;
+}
+
+.integrantes {
+  width: 100px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+/* article */
+
+.container-a {
+  display: flex;
+  justify-content: center;
+  margin: 25px 0 50px 0;
+}
+
+.enlace {
+  text-decoration: none;
+  color: white;
+  background: black;
+  padding: 8px 8px 8px 8px;
+  border-radius: .5rem;
+}
+
+.enlace:hover {
+  color: #6AF87A;
+  transition: 1s;
+}

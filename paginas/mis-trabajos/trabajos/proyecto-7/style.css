@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  background: #273b47;
+}
+
+.logo {
+  padding-left: 10px;
+  padding-bottom: 12px;
+}
+
+.logo img {
+  float: left;
+  width: 30px;
+  margin: 10px 0 0 0;
+}
+
+.logo p {
+  color: white;
+  float: left;
+  padding-left: 5px;
+  padding-top: 10px;
+  margin-top: 8px;
+}
+
+.logo p:hover, .logo img:hover {
+  cursor: pointer;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content:  flex-start;
+  margin-left: 250px;
+}
+
+.navbar ul li {
+  display: inline-block;
+  list-style: none;
+  padding: 3px 0;
+  margin: 5px 0 10px 0;;
+}
+
+.navbar ul .li-fist {
+  padding-left: 5px;
+}
+
+.navbar ul li:hover {
+  cursor: pointer;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  display: block;
+  color: white;
+  padding: 0 15px;
+}
+
+.navbar ul li a:hover {
+  color: #8E9294
+}
